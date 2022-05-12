@@ -100,6 +100,7 @@ a {
     width: 100%;
     text-align: center;
     background-color: #802bb1;
+    z-index: 100000;
 }
 .mobile-menu li a {
     display: block;
@@ -122,8 +123,13 @@ a {
     font-weight: 800;
     font-size: 1.6rem;
 }
+.content .title{
+    font-family: "Montserrat", "poppins", Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+}
 .latest-block {
-    width: 70%;
+    width: 65%;
+    padding: 1rem;
     margin: 0 auto;
     font-size: 1rem;
     font-weight: 700;
